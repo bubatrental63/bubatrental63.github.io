@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>BUBAT RENTAL MOBIL RESERVASI</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <form action="" class="web2wa">
+      <img src="logo.png" class="imgLogo" />
+      <h1 class="web2wa__titulo">BUBAT RENTAL MOBIL</h1>
+      <p class="web2wa__parrafo">Solusi Rental Aman Dan Nyaman </br> Kami juga hadir di kota - kota di Indonesia
+        </p>
+      <p class="web2wa__parrafo">
+        Silahkan isi form dibawah ini dengan lengkap!
+      </p>
+
+      <!--
+      <label for="klien" class="web2wa__label">Input Your name</label>
+      <input
+        id="klien"
+        type="text"
+        class="web2wa__input"
+        placeholder="Please fill your full name here*"
+      />
+      -->
+
+      <label for="location" class="web2wa__label">Lokasi Penjemputan</label>
+      <input id="locationselectio" name="listalocationselectio" class="web2wa__input" placeholder="Lokasi Penjemeputan">
+        
+        </input>
+
+      <label for="tanggal" class="web2wa__label">Tanggal</label>
+      <input
+        id="tanggal"
+        type="date"
+        class="web2wa__input"
+        pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      />
+
+      <label for="jam" class="web2wa__label"
+        >Jam</label
+      >
+      <input id="jam" type="time" class="web2wa__input" />
+
+      <label for="daysnum" class="web2wa__label">Lama Pemakaian</label>
+      <input
+        id="daysnum"
+        type="number"
+        class="web2wa__input"
+        pattern="[0-9]{2}"
+      />
+
+
+      <label for="pelayan" class="web2wa__label"
+        >Termasuk Supir?</label
+      >
+      <select id="pelayan" name="listapelayans" class="web2wa__input">
+        <option>Ya, Pakai Supir</option>
+        <option>Tidak, Lepas Kunci Saja</option>
+        <option>Hanya Dropoff Saja</option>
+      </select>
+
+      <label for="layanan" class="web2wa__label"
+        >Silahkan pilih mobil dibawah ini</label
+      >
+      <select id="layanan" name="Car" class="web2wa__input">
+        <option>Great New Xenia (AT/MT)</option>
+<option>Grand Max (MT)</option>
+<option>Grand Max Blindvan (MT)</option>
+<option>Grand Max Pickup (MT)</option>
+<option>Grand Max Box (MT)</option>
+<option>Toyota Grand New Avanza (AT/MT)</option>
+<option>Toyota Agya (AT)</option>
+<option>Daihatsu alya (AT)</option>
+<option>Daihatsu Luxio (MT)</option>
+<option>Toyota Calya (AT)</option>
+<option>Honda Brio Satya (AT)</option>
+<option>Toyota Sienta (AT/MT)</option>
+<option>Daihatsu All New Xenia (AT/MT)</option>
+<option>Toyota Rush (AT)</option>
+<option>Toyota Avanza Facelife (AT/MT)</option>
+<option>Honda Freed (AT)</option>
+<option>Mitsubishi Xpander (AT/MT)</option>
+<option>Toyota All New Avanza (AT/MT)</option>
+<option>Toyota Raize (AT)</option>
+<option>Daihatsu Rocky (AT)</option>
+<option>Honda Jazz (AT)</option>
+<option>Toyota Yaris (AT)</option>
+<option>Nissan X-trail (AT)</option>
+<option>Honda new CRV (AT)</option>
+<option>Honda CRV  Prestige (AT)</option>
+<option>Toyota Innova Reborn (AT/MT)</option>
+<option>Toyota Innova Reborn TRD (AT)</option>
+<option>Toyota New Fortuner (AT)</option>
+<option>Mitsubishi New Pajero (AT)</option>
+<option>Toyota Hilux 4x4 (MT)</option>
+<option>Mitsubishi Triton 4x4 (MT)</option>
+<option>Toyota Hiace Comuter 15 seat (MT)</option>
+<option>Toyota Hiace Premio 15 seat (MT</option>
+<option>Isuzu Elf Tayo 19 seat (MT)</option>
+<option>Truck Engkel Box (MT)</option>
+<option>Toyota Alphard (AT)</option>
+<option>Toyota Alphard Transformer (AT)</option>
+<option>Mercedes E250 (AT)</option>
+<option>Camry (AT)</option>
+      </select>
+      </select>
+
+      <label for="droplocation" class="web2wa__label">Tujuan Destinasi</label>
+      <input
+        id="droplocationselectio"
+        type="text"
+        class="web2wa__input"
+        placeholder="Silahkan masukkan tujuan destinasi*"
+      />
+
+      <div id="tanggapan"></div>
+
+      
+      <p class="socmed">
+        <a href="https://instagram.com/bubat_rental" target="_blank"><img src="instagram.png" class="imgsocmed" /></a>
+        &nbsp;&nbsp;
+        <a href="https://bubatrental.com" target="_blank"><img src="website.png" class="imgsocmed" /></a>
+        &nbsp;&nbsp;
+        <a href="https://web.facebook.com/bubat.rental" target="_blank"><img src="facebook.png" class="imgsocmed" /></a>
+      </p>
+
+      <button id="submit" class="web2wa__submit">Kirim Reservasi!</button>
+      
+      <div class="choolang"><p style="color: rgb(10, 10, 10);">(c) Bubatrental 2022</p></div>
+
+      <marquee>Semoga Perjalanan Anda Menyenangkan</marquee>
+
+    </form>
+    <p>&nbsp;</p>
+    <script src="js/form.js"></script>
+  </body>
+</html>

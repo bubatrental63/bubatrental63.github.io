@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: sans-serif;
+  background: #66a5f7;
+  background: -webkit-linear-gradient(to right, #94bef5, #3b8df7);
+  background: linear-gradient(to right, #77adf3, #3b8df7);
+}
+
+.web2wa {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+  position: relative;
+  background: rgba(255, 255, 255, 0.97);
+}
+
+.imgLogo {
+  width: 200px;
+  height: 150px;
+  border-radius: 150px;
+  display: block;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  /*border: 1px solid rgba(109, 86, 10, 0.7);*/
+}
+
+.imgsocmed {
+  width: 42px;
+  display: inline-block;
+}
+
+.web2wa__titulo,
+.web2wa__subtitulo,
+.web2wa__parrafo {
+  text-align: center;
+  margin-top: 0;
+}
+
+.web2wa__titulo,
+.web2wa__subtitulo {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.web2wa__parrafo {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.web2wa__input,
+.web2wa__label {
+  display: block;
+  width: 100%;
+  font-size: 1, 3em;
+}
+
+.web2wa__input {
+  padding: 10px;
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.web2wa__input:focus {
+  outline: none;
+  box-shadow: 0px 0px 2px rgba(76, 186, 250, 0.7);
+}
+
+.web2wa__label {
+  /*position: absolute;*/
+  /*margin-top: -78px;*/
+  /*z-index: -20;*/
+  color: rgba(0, 0, 0, 0.7);
+  /*transition: all 0.2s;*/
+  margin: 2px;
+}
+
+.web2wa__submit {
+  background: rgba(37, 211, 102);
+  color: white;
+  padding: 10px 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  width: 60%;
+  font-size: 14px;
+}
+
+.web2wa__input,
+.web2wa__submit {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.choolang {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.socmed {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.choolang p {
+  text-align: center;
+  font-size: 12px;
+}
+
+.imgFlag {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 24px;
+  display: block;
+}
+
+#tanggapan {
+  width: 100%;
+  height: 50px;
+  margin: 5px;
+  padding: 5px;
+}
+
+#tanggapan.fail {
+  color: red;
+}
+
+#tanggapan.send {
+  color: green;
+}
+marquee {
+  color: red;
+}
