@@ -6,7 +6,7 @@ document.querySelector("#submit").addEventListener("click", (e) => {
   let tel = "";
   let url = "";
   //if(randValue % 2 == 0) {
-  tel = "6281215000391";
+  tel = "628112310934";
   //}else{
   //tel = "6285760001085";
   //}
@@ -47,7 +47,7 @@ document.querySelector("#submit").addEventListener("click", (e) => {
     Website : www.bubatrental.com%0A
     https://instagram.com/bubat_rental%0A
     https://web.facebook.com/bubat.rental%0A%0A
-    Reservation WA (6281-2150-0391)%0A
+    Reservation WA (0811-2310-394)%0A
     Reservation WA (0857-6000-1085)%0A`;
 
   //if (klien === "" || tanggal === "" || jam === "") {
